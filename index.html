@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Encriptador - Desafío Alura</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="logo">
+      <img class="logo__img" src="src/assets/images/icons/Logo.png"
+        alt="ícono de la empresa Alura representado con la letra A">
+    </h1>
+  </header>
+  <main>
+
+    <section>
+      <form action="" class="form">
+        <textarea class="form__textarea" name="" placeholder="escriba su texto aquí.."></textarea>
+        <div class="container">
+          <img class="container__img" src="src/assets/images/icons/pic_exclamation-circle-fill.png"
+            alt="ícono de advertencia">
+          <p class="container__text">
+            solo letras en mayúsculas y sin acento
+          </p>
+        </div>
+        <div class="container">
+          <button class="container__send container__send--white" type="button">Encriptar</button>
+          <button class="container__send container__send--blue" type="button">Desencriptar</button>
+        </div>
+      </form>
+
+    </section>
+
+    <section>
+      <article class="card">
+        <img class="card__img" src="src/assets/images/img/pic-search.png"
+          alt="imágen canva de un chico sosteniendo una lupa">
+        <h3 class="card__title">
+          Ningún mensaje fue encontrado
+        </h3>
+        <p class="card__text">
+          ingresa el texto que desees encriptar o desencriptar
+        </p>
+        <p class="card__secret-message">
+
+        </p>
+      </article>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+
+</html>
