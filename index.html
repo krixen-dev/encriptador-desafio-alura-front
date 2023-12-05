@@ -28,8 +28,8 @@
           </p>
         </div>
         <div class="container">
-          <button class="container__send container__send--white" type="button">Encriptar</button>
-          <button class="container__send container__send--blue" type="button">Desencriptar</button>
+          <button class="container__send" type="button">enviar</button>
+          <!-- <button class="container__send container__send--white" type="button">Encriptar</button> -->
         </div>
       </form>
 
@@ -45,9 +45,11 @@
         <p class="card__text">
           ingresa el texto que desees encriptar o desencriptar
         </p>
-        <p class="card__secret-message">
-
-        </p>
+        <p class="card__secret-message"></p>
+        <div class="container" style="display: none;" id="buttons-container">
+          <button class="container__send container__send--decript" id="button-decript">desencriptar</button>
+          <button type="button">copiar texto</button>
+        </div>
       </article>
     </section>
   </main>
